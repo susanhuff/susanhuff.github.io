@@ -1,0 +1,143 @@
+html {
+    width: 100%;
+}
+body {
+    width: 100%;
+    margin: 0;
+    font: 100% 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+}
+header {
+    text-align: center;
+}
+.view {
+    padding-top: 75px;
+    background-image: url("/assets/IMG_1257.JPG");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: table;
+    height: 100vh;
+    width: 100%; 
+}
+.intro-text .name {
+    display: block;
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3.0em;
+    letter-spacing: 1.5px;
+}
+.intro-text .skill {
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 2.0em;
+    font-weight: 300;
+}
+header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.navbar-custom {
+    position:fixed;
+    width: 100%;
+    background: rgb(58,65,89);
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+}
+.navbar-custom .navbar-brand {
+    color: white;
+}
+.navbar-custom .navbar-nav {
+    letter-spacing: 1px;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-color: white;
+}
+.navbar-custom .navbar-nav li a {
+    display: inline;
+    color: white;
+    font-size: 0.9em;
+    padding-left: 30px;
+}
+.about-container {
+        padding-top: 75px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		float: center;
+}
+.about-headshot img {
+		float: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		max-width: 500px;
+}
+	
+.about-bio {
+		float: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+		font-family: 'Open Sans Bold', Helvetica, Arial, sans-serif;
+		text-align: justify;
+}
+#portfolio {
+        padding-top: 75px;
+        font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+        text-align: justify;
+}
+.portfolio-thumbnail {
+        padding-top: 50px;        
+}
+
+.portfolio-thumbnail img{
+        height: 200px;
+}	
+.portfolio-summary {
+		text-align: justify;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        line-height: 22px;
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}	
+.portfolio-feature img {
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+#beerpage {
+        padding-top: 75px;
+        text-align: center;
+}
+#biketour {
+        padding-top: 75px;
+        text-align:center;
+}
+.resume {
+		float: center;
+		width: 50%;
+        padding-top: 75px;
+		margin-left: 25%;
+		margin-right: 25%;
+		font-family: "Helvetica";
+}
+.job h6 {
+    font-size: 14px;
+}
+.description {
+    font-size: 13px;
+    width: 90%;
+    line-height: 125%;
+}
